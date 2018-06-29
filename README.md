@@ -58,7 +58,7 @@ The Python script uses the DNCA APIs to get device information. The APIs provide
 
 If you look at the Python code for our script, you will see the API calls used.
 
-- `https://{}/api/system/v1/auth/token` Gets and encapsulates user identity and role information as a single value that RBAC-governed APIs use to make access-control decisions.
+- `https://{}/api/system/v1/auth/token` Gets and encapsulates user identity and role information as a single value that RBAC-governed APIs use to make access-control decisions. This returns a token as a response in a JSON object. You can re-use it for any request that may need it directly (such as the Python script here)
 - `https://{}/api/v1/network-device` Gets the list of first 500 network devices sorted lexicographically based on hostname. It can be filtered using management IP address, mac address, hostname and location name. If id param is provided, it will be returning the list of network-devices for the given id's and other request params will be ignored. In case of autocomplete request, returns the list of specified attributes.
 
 ## Running the code
