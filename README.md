@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ### Code features
 
-The Python script uses the DNCA APIs to get device information. The APIs provides a list of all of the network devices the DNCA controller knows about and their all of their attributes. For example hostname, serial platform type, software version, uptime etc.  You can either get all of the devices, or a subset. This is printed out using PrettyTable, this is a simple Python library designed to make it quick and easy to represent tabular data in visually appealing ASCII tables. It was inspired by the ASCII tables used in the PostgreSQL shell psql. PrettyTable allows for selection of which columns are to be printed, independent alignment of columns (left or right justified or centred) and printing of “sub-tables” by specifying a row range.
+The Python script uses the DNCA APIs to get device information. The APIs provides a list of all of the network devices the DNCA controller knows about and all of their attributes. For example hostname, serial platform type, software version, uptime etc.  You can either get all of the devices, or a subset. This is printed out using PrettyTable, this is a simple Python library designed to make it quick and easy to represent tabular data in visually appealing ASCII tables. It was inspired by the ASCII tables used in the PostgreSQL shell psql. PrettyTable allows for selection of which columns are to be printed, independent alignment of columns (left or right justified or centred) and printing of “sub-tables” by specifying a row range.
 
 ## DNAC API reference
 
