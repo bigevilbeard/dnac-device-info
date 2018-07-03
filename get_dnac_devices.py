@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 from env_lab import dnac
 import json
@@ -36,7 +36,8 @@ def network_device_list(dnac, token):
     for item in data['response']:
         dnac_devices.add_row([item["hostname"],item["platformId"],item["softwareType"],item["softwareVersion"],item["upTime"]])
 
+
 login = dnac_login(dnac["host"], dnac["username"], dnac["password"])
 network_device_list(dnac, login)
 
-print dnac_devices
+print(dnac_devices)

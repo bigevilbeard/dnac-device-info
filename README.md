@@ -4,12 +4,11 @@ These instructions will get you a copy of the Python code for a Python script to
 
 ## Requirements
 
-- Python 2.7.10 or higher
-- Python 3.6.3 or higher
+- Python 3.6 or higher
 - "git" command line tools
 - Homebrew (Mac OS X)
 
-## Mac OS X Installation
+## For Mac OS X Installation
 
 ```
 git installation - https://git-scm.com/download/mac
@@ -19,7 +18,6 @@ homebrew installation - ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebr
 ```
 ```
 Python 3.6 installation - https://www.python.org/downloads/release/python-364/
-Python 2.7 installation - https://www.python.org/downloads/release/python-2714/
 Python pip installation
 curl -o get-pip.py https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
@@ -29,11 +27,10 @@ Command Line Developer Tools Installation. After running command, complete insta
 xcode-select --install
 ```
 
-## Windows Installation
+## For Windows Installation
 ```
 git installation - https://git-scm.com/download/win
 Python 3.6 installation - https://www.python.org/downloads/release/python-364/
-Python 2.7 installation - https://www.python.org/downloads/release/python-2714/
 Be sure to check box for "Add Python to PATH" during the installer
 ```
 
